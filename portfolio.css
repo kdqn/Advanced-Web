@@ -1,0 +1,160 @@
+nav {
+    font-weight: bold;
+    float: right;
+    text-align: right;}
+
+
+	
+li {
+	list-style-type: none;
+}
+body { 
+	background-color: #84c5c2;
+	color: #17333b;
+	font-family: Verdana, Arial, sans-serif;
+	background-image: url(background.gif);
+    border: 10px solid black;
+    
+
+}
+header {
+  background-color: #0a9caf;
+  height: 200px;
+  background-image: url(javajamlogo.jpg);
+  background-repeat: no-repeat;
+}
+h1 {
+  padding-top: 45px;
+  padding-left: 220px;
+  font-size: 3em;
+  padding-bottom: 3px;
+  text-align: center;
+}
+
+h4 {
+  text-transform: uppercase;
+  border-bottom: #e46e1a;
+  padding-bottom: 0;
+  clear: left;
+}
+
+nav {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-top: 10px;
+  float: left;
+  width: 200px;
+}
+
+table {
+  margin: auto;
+  width: 90%;
+  border-spacing: 0;
+  background-color: 0;
+
+}
+td {
+padding: 10px;
+}
+th {
+padding: 10px;
+}
+.altTable2 {
+  background-color: #163842b9;
+  color: black;
+}
+.altTable {
+  background-color: #04587275;
+  color: black;
+}
+table {
+	margin-top: 3px;
+	padding-top: 10px;
+}
+nav a {
+text-decoration: none;
+}
+
+nav a:link {
+color: #f7f4e4
+}
+nav a:visited {
+color: #7ceef1;
+}
+nav a:hover {
+color: #cc33b2;
+
+}
+nav ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+footer {
+  background-color: #dfca2d;
+  font-size: .60em;
+  font-style: italic;
+  text-align: center;
+ padding-bottom: 10px;
+ border-top: #ec6a0d 2px;
+ border-style: solid; 
+}
+
+h4 {
+  background-color: #555345;
+  size: 1.2em;
+  padding-left: .5em;
+  padding-bottom: .25em;
+}
+main {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  margin-left: 200px;
+  background-color: #e2cb1e;
+}
+.details {
+padding-left: 20%;
+padding-right: 20%;
+overflow: auto;
+}
+.floatleft {
+padding-bottom: 2em;
+padding-right: 2em;
+}
+img {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#wrapper {
+width: 80%;
+margin-right: auto;
+margin-left: auto;
+background-color: #d8be14;
+min-width: 900px;
+max-width: 1280px;
+box-shadow:rgb(233, 46, 46);
+background-color: #f018e1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+h2 {
+  padding-left: 0em;
+  padding-right: 2em;
+  float: left;
+  text-align: left;
+}
+
+header, nav, main, footer {
+  display: block;
+}
+
