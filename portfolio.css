@@ -4,6 +4,9 @@
 li {
     list-style-type: none;
 }
+b {
+    font-size: 20px;
+}
 body { 
     background-color: #1fd3ca;
     color: #17333b;
@@ -92,7 +95,7 @@ nav a {
 }
 
 nav a:link {
-color: #f7f4e4
+color: rgb(5, 119, 119)
 }
 nav a:visited {
 color: #7ceef1;
@@ -102,6 +105,7 @@ color: #fc9700;
 display: block;
 background-color: rgb(71, 190, 190);
 }
+
 nav ul {
   padding-left: 0;
   list-style-type: none;
@@ -121,19 +125,20 @@ footer {
 }
 
 main {
-  padding-left: 2em;
-  padding-right: 2em;
-  padding-bottom: 2em;
   display: block;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-left: 200px;
-  background-color: #e2cb1e;
+  /* margin-top: 220px; */
+  width: 800px;
 }
 img {
-  padding-left: 10px;
-  padding-right: 10px;
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  float: left;
+  margin-right: 20px;
 }
 
 /* #wrapper {
