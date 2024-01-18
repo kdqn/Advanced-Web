@@ -9,7 +9,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
-  <link rel="stylesheet" href="Advanced-Web/portfolio.css">
+  <link rel="stylesheet" href="portfolio.css">
 
 </head>
 <body>
@@ -22,8 +22,8 @@
   <nav class="nav">
         <ul class="nav-list">
           <a class="nav-item" href="index.php">Home <br></a>
-          <a class="nav-item" href="Advanced-Web/aboutme.php">About <br></a>
-          <a class="nav-item" href="Advanced-Web/assignments.php">Assigments <br></a>
+          <a class="nav-item" href="aboutme.php">About <br></a>
+          <a class="nav-item" href="assignments.php">Assigments <br></a>
           <a class="nav-item" href="https://github.com/kdqn/Advanced-Web">GitHub <br></a>
         </ul>
       </nav>
