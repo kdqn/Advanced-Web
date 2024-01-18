@@ -13,8 +13,13 @@
 </head>
 <body>
 	<header class="header">
-		<div>
-      <nav class="nav">
+
+
+<h1>About Me</h1>
+
+	</header>
+
+  <nav class="nav">
         <ul class="nav-list">
           <a class="nav-item" href="index.php">Home <br></a>
           <a class="nav-item" href="aboutme.php">About <br></a>
@@ -22,16 +27,21 @@
           <a class="nav-item" href="https://github.com/kdqn/Advanced-Web">GitHub <br></a>
         </ul>
       </nav>
-		</div>
-<h1>About Me</h1>
-
-	</header>
-
 	<main class="container">
 		<article class="article">
 
 		<p>
-      What would you like to know about me?
+      <b>Fun fact about myself?</b>
+      A fun fact about me, is my entire education history. I got my first college credits at age 12 
+      through a CLEP test. <br>
+      I am planning to graduate with my Bachelor's Degree in Computer Science before I turn 19. 
+      I am currently 16 and have 50ish credits.
+       <br> <b>Why did I choose CS?</b>   <br>
+      I chose computer science because I have always had a fascination with computers, and my 
+      dad also does computer science related stuff for his job. <br>
+       <b>What do I want to do once I graduate?</b> <br>
+       I would like to spend some time travelling and just having fun with friends, and then 
+       get a job (either as a web devloper or other kind of programmer) and put my degree to use.
 
 		</p>
 	
@@ -39,7 +49,9 @@
 </main>
 
 	
-
-
+<footer>
+  <p>Cayden Odegard <br> vp1139go@go.minnstate.edu <br>
+</p>
+</footer>
 </body>
 </html>

@@ -10,11 +10,16 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="portfolio.css">
+
 </head>
 <body>
 	<header class="header">
-		<div>
-      <nav class="nav">
+
+<h1>Cayden Odegard</h1>
+
+	</header>
+
+  <nav class="nav">
         <ul class="nav-list">
           <a class="nav-item" href="index.php">Home <br></a>
           <a class="nav-item" href="aboutme.php">About <br></a>
@@ -22,10 +27,6 @@
           <a class="nav-item" href="https://github.com/kdqn/Advanced-Web">GitHub <br></a>
         </ul>
       </nav>
-		</div>
-<h1>Cayden Odegard</h1>
-
-	</header>
 
 	<div class="container">
 		<article class="article">
@@ -35,7 +36,7 @@
 			<table>
 				<tr>
 				<th    class="altTable2"><strong>Why am I taking this class?</strong></th>
-				<td   class="altTable">I am taking this class because I want to be able to create better and more useful websites and utilize the skills better, as well as this counting towards <br>
+				<td   class="altTable">I am taking this class because I want to be able to create better and more useful websites and utilize the skills better, as well as this counting towards
 					the requirements of the Computer Science degree I am working towards.</td>
 			  </tr>
 			  <tr>  
@@ -50,7 +51,10 @@
 	</div>
 
 	
-
+<footer>
+  <p>Cayden Odegard <br> vp1139go@go.minnstate.edu <br>
+</p>
+</footer>
 	<script src="script.js"></script>
 </body>
 </html>
