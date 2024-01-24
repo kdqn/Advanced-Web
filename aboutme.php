@@ -1,16 +1,4 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CS3270</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
-  <link rel="stylesheet" href="portfolio.css">
-</head>
+<?php include_once('src/views/head.view.php') ?>
 <body>
 	<header class="header">
 
@@ -19,16 +7,9 @@
 
 	</header>
 
-  <nav class="nav">
-        <ul class="nav-list">
-          <a class="nav-item" href="index.php">Home <br></a>
-          <a class="nav-item" href="aboutme.php">About <br></a>
-          <a class="nav-item" href="assignments.php">Assigments <br></a>
-          <a class="nav-item" href="https://github.com/kdqn/Advanced-Web">GitHub <br></a>
-        </ul>
-      </nav>
+  <?php include_once('src/views/nav.view.php') ?>
 
-  <div><img src="pfpcayden.jpg" alt="A picture of me"></div>
+  <div><img src="images/pfpcayden.jpg" alt="A picture of me"></div>
 	<main class="container">
 		<article class="article">
 
@@ -57,9 +38,4 @@
 
 
 	
-<footer>
-  <p>Cayden Odegard <br> vp1139go@go.minnstate.edu <br>
-</p>
-</footer>
-</body>
-</html>
+<?php include_once('src/views/footer.view.php') ?>
