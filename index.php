@@ -1,12 +1,13 @@
 <?php
-// $config = parse_ini_file('config.ini', true);
+$config = parse_ini_file('config.ini', true);
 // $environment = $config['ENVIRONMENT']
-// $URL_BASE = $config[$environment]['URL_BASE']
-// 	$data = [
-// 		'pageTitle' => 'CS3270 | Home',
-// 	];
+// $URL_BASE = $config[$environment['URL_BASE']]
+	$data = [
+		'pageTitle' => 'CS3270 | Home',
 
-// include_once('src/views/head.view.php');
+	];
+
+include_once('src/views/head.view.php');
 ?>
 
 

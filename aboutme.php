@@ -1,4 +1,14 @@
-<?php include_once('src/views/head.view.php') ?>
+<?php
+$config = parse_ini_file('config.ini', true);
+// $environment = $config['ENVIRONMENT']
+// $URL_BASE = $config[$environment['URL_BASE']]
+	$data = [
+		'pageTitle' => 'CS3270 | About Me',
+		
+	];
+
+include_once('src/views/head.view.php');
+?>
 <body>
 	<header class="header">
 
