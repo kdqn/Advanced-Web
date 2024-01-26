@@ -2,9 +2,19 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font: sans-serif;
 
 }
-
+a {
+  color: #fc9700;
+  font-weight: bold;
+  text-decoration: none;
+}
+h2 {
+  text-align: left;
+  color: red;
+  padding: 10px;
+}
 
 li {
     list-style-type: none;
@@ -174,4 +184,5 @@ background-color: #f018e1;
 header, nav, main, footer {
   display: block;
 }
+
 
