@@ -4,21 +4,37 @@ $environment = $config['ENVIRONMENT'];
 // $URL_BASE = $config[$environment['URL_BASE']];
 	$data = [
 		'pageTitle' => 'CS3270 | Assignments',
+        'pageHeader' => 'Assignments',
         'assignments' => [
             [
-                'assignNum' => 'Assignment 1:',
-                'assignLink' => 'cs.bemidjistate.edu/banking',
+                'assignTitle' => 'Assignment 1: Home Page',
+                'assignLink' => 'https://cs.bemidjistate.edu/vp1139go/',
+                'assignLinkName' => 'My Home Page',
+            ],
+            [
+                'assignTitle' => 'Assignment 2: About Page',
+                'assignLink' => 'https://cs.bemidjistate.edu/vp1139go/aboutme.php',
+                'assignLinkName' => 'My About Page',
+            ],
+            [
+                'assignTitle' => 'Assignment 3: Refactor',
+                'assignLink' => 'https://github.com/kdqn/Advanced-Web',
+                'assignLinkName' => 'My github (Home page link should be refactored)',
+            ],
+            [
+                'assignTitle' => 'Assignment 4: Bank',
+                'assignLink' => 'cs.bemidjistate.edu/vp1139go/banking/',
                 'assignLinkName' => 'Banking Website',
             ],
             [
-                'assignNum' => 'Assignment 2:',
-                'assignLink' => '',
-                'assignLinkName' => 'TBD',
+                'assignTitle' => 'Assignment 5: Objects',
+                'assignLink' => 'https://github.com/kdqn/Assignment5',
+                'assignLinkName' => 'OOP Recruitment Page GitHub',
             ],
             [
-                'assignNum' => 'Assignment 3:',
-                'assignLink' => '',
-                'assignLinkName' => 'TBD',
+                'assignTitle' => 'Assignment 6: Projects View',
+                'assignLink' => 'https://cs.bemidjistate.edu/vp1139go/projects.php',
+                'assignLinkName' => 'Projects Page',
             ]
         ]
 		
@@ -27,13 +43,28 @@ $environment = $config['ENVIRONMENT'];
 include_once('src/views/head.view.php');
 ?>
 <body>
-    <h1>Assignments:</h1>
-    <h2><?php echo $data['assignments'][0]['assignNum'] ?></h2> <br>
-    <a href="<?php echo $data['assignments'][0]['assignLink'] ?>"><?php echo $data['assignments'][0]['assignLinkName'] ?></a>
-    <h2><?php echo $data['assignments'][1]['assignNum'] ?></h2> <br>
-    <a href="<?php echo $data['assignments'][1]['assignLink'] ?>"><?php echo $data['assignments'][1]['assignLinkName'] ?></a>
-    <h2><?php echo $data['assignments'][2]['assignNum'] ?></h2> <br>
-    <a href="<?php echo $data['assignments'][2]['assignLink'] ?>"><?php echo $data['assignments'][2]['assignLinkName'] ?></a>
+	<header class="header">
+
+
+<h1><?php echo $data['pageHeader']?></h1>
+
+	</header>
+
+  <?php include_once('src/views/nav.view.php') ?>
+
+
+	<main class="container">
+		<article class="article">
+<body>
+<dl>
+<?php
+for ($i = 0; $i < count($data['assignments']); $i++) {
+    echo "<dt><h2>" . $data['assignments'][$i]['assignTitle'] . "</h2></dt>";
+    echo "<dd><a href='" . $data['assignments'][$i]['assignLink'] . "'>" . $data['assignments'][$i]['assignLinkName'] . "</a></dd><br>";
+}
+?>
+</dl>
 </body>
-<?php include_once('src/views/nav.view.php') ?>
+</article>
+</main>
 <?php include_once('src/views/footer.view.php') ?>
