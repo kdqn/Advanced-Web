@@ -1,6 +1,6 @@
 <?php
-$config = parse_ini_file('config.ini', true);
-$environment = $config['ENVIRONMENT'];
+// $config = parse_ini_file('config.ini', true);
+// $environment = $config['ENVIRONMENT'];
 // $URL_BASE = $config[$environment['URL_BASE']];
 	$data = [
 		'pageTitle' => 'CS3270 | About Me',
