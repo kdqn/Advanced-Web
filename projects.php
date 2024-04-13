@@ -14,19 +14,26 @@ $environment = $config['ENVIRONMENT'];
             'usedLanguages' => 'HTML, CSS, JavaScript',
             ],
         [
-            'projectTitle' => '',
-            'projectLink' => '',
-            'projectLinkName' => '',
-            'projectDescription' => '',
-            'usedLanguages' => '',
+            'projectTitle' => 'My Portfolio Page (in progress)',
+            'projectLink' => 'cs.bemidjistate.edu/vp1139go/portfolio',
+            'projectLinkName' => 'My Portfolio',
+            'projectDescription' => 'This is a website I am creating to use on future projects, and I started making it as a requirement for the Advanced Web Dev class at BSU. I am going to (by the time it\'s completed) have used a good majority of the stuff I have learned throughout this past semester. ',
+            'usedLanguages' => 'HTML, CSS, Javascript, MySQL, PHP',
             ],
         [
-            'projectTitle' => '',
-            'projectLink' => '',
-            'projectLinkName' => '',
-            'projectDescription' => '',
-            'usedLanguages' => '',
-            ]
+            'projectTitle' => 'Hangman 2',
+            'projectLink' => '#',
+            'projectLinkName' => 'N/A',
+            'projectDescription' => 'I would like to eventually re-create the hangman I made as a previous project, focusing on improving the functionality and bugs that I had in my program, and improving the CSS and visual appeal of the webpage as well. I also would like to integrate a way to have multiple words as my solution, instead of just one fixed word all the time.',
+            'usedLanguages' => 'Potentially: HTML, CSS, PHP, JavaScript',
+        ],
+        [
+            'projectTitle' => 'Image Library',
+            'projectLink' => '#',
+            'projectLinkName' => 'N/A',
+            'projectDescription' => 'I would like to potentially as an "addition" to my Portfolio page, add a Image Library of random pictures I have taken and display them using my knowledge of coding, and also to just demonstrate some of the cool things I have seen and places I have been.',
+            'usedLanguages' => 'Potentially: HTML, CSS, PHP, JavaScript',
+        ],
 
     ],
 	];
