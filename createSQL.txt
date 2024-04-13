@@ -1,0 +1,218 @@
+shell into mysql
+
+
+
+
+
+
+
+(do this once I can login and password is reset)
+
+	create database codegard;
+	use codegard;
+	create table myFirstTable(
+		_id int AUTO-INCREMENT,
+		name varchar(255)  NOT NULL,
+		email varchar(255),
+		_date_created DATETIME DEFAULT CURRENT_TIMESTAMP,
+		PRIMARY KEY (_id)
+		);
+
+	
+		
+
+
+
+
+
+	show tables;
+
+
+
+
+
+
+
+	show columns in myFirstTable;
+
+
+
+
+
+	SELECT *
+	FROM myFirstTable;
+
+
+
+
+	INSERT into myFirstTable
+	(name, email)
+	values('Jerry', 'jerry@gmail.com');
+
+
+
+	
+	SELECT *
+	FROM myFirstTable;
+
+
+
+	SELECT name, email from myFirstTable;
+
+
+	select email, name
+		from myFirstTable;
+
+
+
+
+
+
+
+
+
+
+
+create table users(
+		_id int AUTO_INCREMENT,
+		lname varchar(255)  NOT NULL,
+		fname varchar(255)  NOT NULL,
+		email varchar(255),
+		PRIMARY KEY (_id)
+		);
+
+
+
+	INSERT into users
+	(lname, fname, email)
+	values('bob'. 'jim' , 'jimbob@gmail.com'),
+	values('shark'. 'baby' , 'thebabyshark@hotmail.com'),
+	values('mom'. 'your' , 'theboss@urmom.com');
+
+
+	show columns in users;
+
+	SELECT *
+		FROM users;
+
+
+
+
+----------------------------------------------------------
+
+
+
+
+create table posts(
+		_id int AUTO_INCREMENT PRIMARY KEY,
+		title varchar(255)  NOT NULL,
+		content text  NOT NULL,
+		author varchar(255),
+		_date_created DATETIME DEFAULT
+		);
+
+
+
+	INSERT into posts
+	(title, content, author)
+	values('Sharks'. 'all about sharks' , 'a shark guy'),
+
+
+	show columns in posts;
+
+	SELECT *
+		FROM posts;
+	
+
+
+--------------------------------------------------------------------
+
+
+
+
+create table dogs(
+		_id int AUTO_INCREMENT PRIMARY KEY,
+		breed varchar(255)  NOT NULL,
+		agressiveness int(1),
+		size int(1),
+		activity int(1),
+		family int(1),
+		link text,
+		);
+
+
+
+	INSERT into dogs
+	(breed, link)
+	values('Golden Retriever', 'https://www.akc.org/dog-breeds/golden-retriever/'),
+	values('German Sheperd', 'https://www.akc.org/dog-breeds/german-shepherd-dog/'),
+	values('Great Dane', 'https://www.akc.org/dog-breeds/great-dane/'),
+	values('German Pinscher', 'https://www.akc.org/dog-breeds/german-pinscher/'),
+	values('Goldendoodle', 'https://www.akc.org/dog-breeds/goldendoodle/');
+
+	
+	show columns in dogs;
+
+	SELECT *
+		FROM dogs;
+
+
+
+----------------------------------------------------
+
+3/14/2024
+
+
+
+
+
+
+
+	select activity, size, agressiveness, breed
+		from dogs
+		WHERE activity > 1 and size = 3;
+		ORDER BY (column name) ASC/DESC
+
+	select *
+		from dogs
+		ORDER BY breed DESC;
+
+
+	update dogs
+		set diet = 5
+		where breed = goldendoodle;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+	
